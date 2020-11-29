@@ -20,7 +20,7 @@ const ChoiseComponent: FC<Props> = ({ label, clickHandler }) => {
             className={!isActive ? styles.choiseButton : styles.choiseActiveButton}
           >
             <span className={isActive ? styles.checkboxRed : styles.checkbox}>
-                    <span className={styles.checboxSymbol}>X</span>
+              <span className={styles.checboxSymbol}>X</span>
             </span>
             <span className={styles.currencyName}>{name}</span>
           </button>
