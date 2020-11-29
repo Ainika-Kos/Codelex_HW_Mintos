@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.choiseWrapper {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.choiseButton {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(232, 232, 232, 1);
+    border: 1px solid rgba(163, 163, 163, 1);
+    color: rgba(48, 48, 48, 1);
+    cursor: pointer;
+    min-width: 90px;
+    transition: background-color 0.2s;
+}
+
+.choiseButton:hover {
+    background-color: rgba(211, 211, 211, 1);
+}
+
+.choiseButton:active, .choiseButton:focus {
+    outline: none;
+}
+
+.choiseActiveButton {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(163, 163, 163, 1);
+    color: rgba(48, 48, 48, 1);
+    cursor: pointer;
+    min-width: 90px;
+}
+
+.choiseActiveButton:active, .choiseActiveButton:focus {
+    outline: none;
+}
+
+.checkbox {
+    font-size: 12px;
+    font-weight: 500;
+    width: 22px;
+    height: 22px;
+    border: 1px solid rgba(163, 163, 163, 1);
+    border-radius: 5px;
+    color: transparent;
+    padding: 0 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.checkboxRed {
+    font-size: 12px;
+    font-weight: 500;
+    width: 22px;
+    height: 22px;
+    border: 1px solid rgba(163, 163, 163, 1);
+    border-radius: 5px;
+    color: red;
+    padding: 0 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.currencyName {
+    margin-left: 5px;
+}
