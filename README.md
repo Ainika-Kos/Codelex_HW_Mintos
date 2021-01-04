@@ -6,5 +6,5 @@
 * in addition, when the user clicks on the dark remove icon - "X" (the top-right icon on a selected currency item), it should unselect the currency and remove it from the list of selected currencies
 
  ## Requirements
- * Responsive
- * Css modules for components
+ * responsive
+ * css modules for components
