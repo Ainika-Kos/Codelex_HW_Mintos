@@ -1,4 +1,4 @@
- # Currency seector mini application
+ # Currency sector mini application in React
 
  ## Description
 * when the user clicks on one of the currencies it should add and display it in the list of selected currencies
